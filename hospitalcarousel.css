@@ -1,0 +1,478 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+
+
+/* Padding below the footer and lighter body text */
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+
+/* Carousel base class */
+
+.carousel-inner {
+    height: 100%;
+    width: 75vh;
+    padding-right: -20%;
+}
+
+
+/* Declare heights because of positioning of img element */
+
+.carousel-item {
+    height: 80vh;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+
+/* Center align the text within the three columns below the carousel */
+
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.marketing h2 {
+    font-weight: 400;
+}
+
+
+/* rtl:begin:ignore */
+
+.marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+
+/* rtl:end:ignore */
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+    margin: 5rem 0;
+    /* Space out the Bootstrap <hr> more */
+}
+
+
+/* Thin out the marketing headings */
+
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    /* rtl:remove */
+    letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 7rem;
+    }
+}
+
+
+/* FONT ADJUSTMENTS
+-------------------------------------------------- */
+
+.product-description {
+    font-family: 'STIX Two Text', serif;
+    font-size: 16px;
+}
+
+
+/* BEDSHEET
+-------------------------------------------------- */
+
+.bedsheetimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Bedsheet/bedsheet1.png");
+}
+
+.bedsheetimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Bedsheet/bedsheet2.jpg");
+}
+
+.bedsheetimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Bedsheet/bedsheet3.png");
+}
+
+
+/* DENTAL APRON
+-------------------------------------------------- */
+
+.daimg {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Dental Apron/dentalapron1.png");
+}
+
+.daimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Dental Apron/dentalapron2.png");
+}
+
+.daimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Dental Apron/dentalapron3.png");
+}
+
+
+/* FACE MASK
+-------------------------------------------------- */
+
+.maskimg {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Face Mask/facemask1.png");
+}
+
+.maskimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Face Mask/mask1.png");
+}
+
+.maskimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Face Mask/mask2.png");
+}
+
+.maskimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Face Mask/mask3.png");
+}
+
+.maskimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Face Mask/maskpack.png");
+}
+
+
+/* HAND SANITISER
+-------------------------------------------------- */
+
+.sanitiserimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Hand Sanitiser/sanitiser1.png");
+}
+
+.sanitiserimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Hand Sanitiser/sanitiser2.png");
+}
+
+
+/* LATEX GLOVES
+-------------------------------------------------- */
+
+.lateximg {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Latex Gloves/latex1.png");
+}
+
+.lateximg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Latex Gloves/latex2.png");
+}
+
+.lateximg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Latex Gloves/latex3.png");
+}
+
+.lateximg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Latex Gloves/latex4.png");
+}
+
+.lateximg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Latex Gloves/latex5.png");
+}
+
+.lateximg5 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Latex Gloves/latex6.jpeg");
+}
+
+
+/* NITRILE GLOVES
+-------------------------------------------------- */
+
+.nitrileimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Nitrile Gloves/nitrile1.png");
+}
+
+.nitrileimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Nitrile Gloves/nitrile2.jpg");
+}
+
+.nitrileimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Nitrile Gloves/nitrile3.jpg");
+}
+
+.nitrileimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Nitrile Gloves/nitrile4.jpg");
+}
+
+
+/* OXYGEN CONCENTRATOR
+-------------------------------------------------- */
+
+.octimg {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Oxygen Concentrator/oxycon1.png");
+}
+
+.octimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Oxygen Concentrator/oxycon2.png");
+}
+
+.octimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Oxygen Concentrator/oxycon3.png");
+}
+
+.octimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Oxygen Concentrator/oxycon4.png");
+}
+
+.octimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Oxygen Concentrator/oxycon5.png");
+}
+
+.octimg5 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Oxygen Concentrator/oxycon6.png");
+}
+
+
+/* PILLOW COVER
+-------------------------------------------------- */
+
+.pillowcovimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Pillow Cover/pillowcover1.png");
+}
+
+.pillowcovimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Pillow Cover/pillowcover2.png");
+}
+
+.pillowcovimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Pillow Cover/pillowcover3.png");
+}
+
+.pillowcovimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Pillow Cover/pillowcover4.png");
+}
+
+.pillowcovimg5 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Pillow Cover/pillowcover5.png");
+}
+
+.pillowcovimg6 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Pillow Cover/pillowcover6.png");
+}
+
+
+/* PULSE OXIMETER
+-------------------------------------------------- */
+
+.poximg {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Pulse Oximeter/pulseoxy1.png");
+}
+
+.poximg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Pulse Oximeter/pulseoxy2.png");
+}
+
+.poximg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Pulse Oximeter/pulseoxy3.png");
+}
+
+
+/* SANITISER DISPENSER
+-------------------------------------------------- */
+
+.sanidispimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Sanitiser Dispenser/sanitiserdisp1.png");
+}
+
+.sanidispimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Sanitiser Dispenser/sanitiserdisp2.png");
+}
+
+.sanidispimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Sanitiser Dispenser/sanitiserdisp3.png");
+}
+
+.sanidispimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Sanitiser Dispenser/sanitiserdisp4.png");
+}
+
+
+/* SHOE COVER
+-------------------------------------------------- */
+
+.shoecoverimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Shoe Cover/shoecover1.png");
+}
+
+.shoecoverimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Shoe Cover/shoecover2.jpg");
+}
+
+.shoecoverimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Shoe Cover/shoecover3.png");
+}
+
+.shoecoverimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Shoe Cover/shoecover4.png");
+}
+
+
+/* SURGEON CAP
+-------------------------------------------------- */
+
+.surgeoncapimg {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Surgeon Cap/surgeoncap1.png");
+}
+
+.surgeoncapimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Surgeon Cap/surgeoncap2.png");
+}
+
+
+/* AUTOMATIC CONTACTLESS THERMOMETER
+-------------------------------------------------- */
+
+.thermoimg {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Thermometer/thermometer.png");
+}
+
+.thermoimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Thermometer/thermometer1.png");
+}
+
+.thermoimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Thermometer/thermometer2.png");
+}
+
+.thermoimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Thermometer/thermometer3.png");
+}
+
+.thermoimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("hospitalsdesc/images/Thermometer/thermometer4.png");
+}

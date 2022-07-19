@@ -1,0 +1,1260 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+
+
+/* Padding below the footer and lighter body text */
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+
+/* Carousel base class */
+
+.carousel-inner {
+    height: 100%;
+    width: 75vh;
+    padding-right: -20%;
+}
+
+
+/* Declare heights because of positioning of img element */
+
+.carousel-item {
+    height: 80vh;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+
+/* Center align the text within the three columns below the carousel */
+
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.marketing h2 {
+    font-weight: 400;
+}
+
+
+/* rtl:begin:ignore */
+
+.marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+
+/* rtl:end:ignore */
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+    margin: 5rem 0;
+    /* Space out the Bootstrap <hr> more */
+}
+
+
+/* Thin out the marketing headings */
+
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    /* rtl:remove */
+    letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 7rem;
+    }
+}
+
+
+/* FONT ADJUSTMENTS
+-------------------------------------------------- */
+
+.product-description {
+    font-family: 'STIX Two Text', serif;
+    font-size: 16px;
+}
+
+
+/* SPA SLIPPERS
+-------------------------------------------------- */
+
+.spaslippersimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/SpaSlippers/Spaslippers (1).png");
+}
+
+.spaslippersimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/SpaSlippers/Spaslippers (2).png");
+}
+
+.spaslippersimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/SpaSlippers/Spaslippers (3).png");
+}
+
+.spaslippersimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/SpaSlippers/Spaslippers (4).png");
+}
+
+.spaslippersimg5 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/SpaSlippers/Spaslippers (5).png");
+}
+
+.spaslippersimg6 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/SpaSlippers/Spaslippers (6).png");
+}
+
+.spaslippersimg7 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/SpaSlippers/Spaslippers (7).png");
+}
+
+.spaslippersimg8 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/SpaSlippers/Spaslippers (8).png");
+}
+
+
+/* OPEN TOE
+-------------------------------------------------- */
+
+.opentoeimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/OpenToe/OpenToe1.png");
+}
+
+.opentoeimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/OpenToe/OpenToe2.png");
+}
+
+.opentoeimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/OpenToe/OpenToe3.png");
+}
+
+.opentoeimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/OpenToe/OpenToe4.png");
+}
+
+
+/*CLOSED TOE
+-------------------------------------------------- */
+
+.closedtoeimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/ClosedToe/ClosedToe (1).png");
+}
+
+.closedtoeimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/ClosedToe/ClosedToe (2).png");
+}
+
+.closedtoeimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/ClosedToe/ClosedToe (3).png");
+}
+
+.closedtoeimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/ClosedToe/ClosedToe (4).png");
+}
+
+.closedtoeimg5 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/ClosedToe/ClosedToe (5).png");
+}
+
+.closedtoeimg6 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/ClosedToe/ClosedToe (6).png");
+}
+
+
+/* STYLISH APRON
+-------------------------------------------------- */
+
+.stylishapronimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/StylishApron/StylishApron (1).png");
+}
+
+.stylishapronimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/StylishApron/StylishApron (2).png");
+}
+
+.stylishapronimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/StylishApron/StylishApron (3).png");
+}
+
+.stylishapronimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/StylishApron/StylishApron (4).png");
+}
+
+.stylishapronimg5 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/StylishApron/StylishApron (5).png");
+}
+
+.stylishapronimg6 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/StylishApron/StylishApron (6).png");
+}
+
+
+/* APRON
+-------------------------------------------------- */
+
+.apronimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/Apron/Apron (1).png");
+}
+
+.apronimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/Apron/Apron (2).png");
+}
+
+.apronimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/Apron/Apron (3).png");
+}
+
+.apronimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/Apron/Apron (4).png");
+}
+
+.apronimg5 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/Apron/Apron (5).png");
+}
+
+.apronimg6 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/Apron/Apron (6).png");
+}
+
+
+/* CUTTING SHEET
+-------------------------------------------------- */
+
+.cuttingsheetimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/CuttingSheet/CuttingSheet (1).png");
+}
+
+.cuttingsheetimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/CuttingSheet/CuttingSheet (2).png");
+}
+
+.cuttingsheetimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/CuttingSheet/CuttingSheet (3).png");
+}
+
+.cuttingsheetimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/CuttingSheet/CuttingSheet (4).png");
+}
+
+.cuttingsheetimg5 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/CuttingSheet/CuttingSheet (5).png");
+}
+
+.cuttingsheetimg6 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/CuttingSheet/CuttingSheet (6).png");
+}
+
+.cuttingsheetimg7 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/CuttingSheet/CuttingSheet (7).png");
+}
+
+.cuttingsheetimg8 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/CuttingSheet/CuttingSheet (8).png");
+}
+
+.cuttingsheetimg9 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/CuttingSheet/CuttingSheet (9).png");
+}
+
+
+/* DIFFUSER OIL
+-------------------------------------------------- */
+
+.diffuseroilimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/DiffuserOil/DiffuserOil (1).png");
+}
+
+.diffuseroilimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/DiffuserOil/DiffuserOil (2).png");
+}
+
+.diffuseroilimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/DiffuserOil/DiffuserOil (3).png");
+}
+
+.diffuseroilimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/DiffuserOil/DiffuserOil (4).png");
+}
+
+
+/* MAGIC TOWEL
+-------------------------------------------------- */
+
+.magictowelimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/MagicTowel/MagicTowel (1).png");
+}
+
+.magictowelimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/MagicTowel/MagicTowel (2).png");
+}
+
+.magictowelimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/MagicTowel/MagicTowel (3).png");
+}
+
+.magictowelimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/MagicTowel/MagicTowel (4).png");
+}
+
+.magictowelimg5 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/MagicTowel/MagicTowel (5).png");
+}
+
+.magictowelimg6 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/MagicTowel/MagicTowel (6).png");
+}
+
+
+/* ROUND SOAP
+-------------------------------------------------- */
+
+.roundsoapimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/RoundSoap/RoundSoap (1).png");
+}
+
+.roundsoapimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/RoundSoap/RoundSoap (2).png");
+}
+
+.roundsoapimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/RoundSoap/RoundSoap (3).png");
+}
+
+
+/* TOWELS
+-------------------------------------------------- */
+
+.towelimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/Towels/Towels1.png");
+}
+
+.towelimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/Towels/Towels2.png");
+}
+
+.towelimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/Towels/Towels3.png");
+}
+
+.towelimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/Towels/Towels4.png");
+}
+
+.towelimg5 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/Towels/Towels5.png");
+}
+
+.towelimg6 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/Towels/Towels6.png");
+}
+
+.towelimg7 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/Towels/Towels7.png");
+}
+
+.towelimg8 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/Towels/Towels8.png");
+}
+
+.towelimg9 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/Towels/Towels9.png");
+}
+
+.towelimg10 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/Towels/Towels10.png");
+}
+
+.towelimg11 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/Towels/Towels11.png");
+}
+
+.towelimg12 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/Towels/Towels12.png");
+}
+
+
+/* BEDSHEET
+-------------------------------------------------- */
+
+.bedsheetimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/Bedsheet/Bedsheet (1).png");
+}
+
+.bedsheetimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/Bedsheet/Bedsheet (2).png");
+}
+
+.bedsheetimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/Bedsheet/Bedsheet (3).png");
+}
+
+.bedsheetimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/Bedsheet/Bedsheet (4).png");
+}
+
+.bedsheetimg5 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/Bedsheet/Bedsheet (5).png");
+}
+
+.bedsheetimg6 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/Bedsheet/Bedsheet (6).png");
+}
+
+
+/* TLIGHT CANDLE
+-------------------------------------------------- */
+
+.tlightimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/TLightCandle/TLightCandle (1).png");
+}
+
+.tlightimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/TLightCandle/TLightCandle (2).png");
+}
+
+.tlightimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/TLightCandle/TLightCandle (3).png");
+}
+
+.tlightimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/TLightCandle/TLightCandle (4).png");
+}
+
+.tlightimg5 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/TLightCandle/TLightCandle (5).png");
+}
+
+.tlightimg6 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/TLightCandle/TLightCandle (6).png");
+}
+
+.tlightimg7 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/TLightCandle/TLightCandle (7).png");
+}
+
+.tlightimg8 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/TLightCandle/TLightCandle (8).png");
+}
+
+
+/* WAXING STRIPS
+-------------------------------------------------- */
+
+.waxingstripsimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/WaxingStrips/WaxingStrips (1).png");
+}
+
+.waxingstripsimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/WaxingStrips/WaxingStrips (2).png");
+}
+
+.waxingstripsimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/WaxingStrips/WaxingStrips (3).png");
+}
+
+.waxingstripsimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/WaxingStrips/WaxingStrips (4).png");
+}
+
+.waxingstripsimg5 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/WaxingStrips/WaxingStrips (5).png");
+}
+
+.waxingstripsimg6 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/WaxingStrips/WaxingStrips (6).png");
+}
+
+
+/* BIKINI 
+-------------------------------------------------- */
+
+.bikiniimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/Bikini/Bikini (1).png");
+}
+
+.bikiniimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/Bikini/Bikini (2).png");
+}
+
+.bikiniimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/Bikini/Bikini (3).png");
+}
+
+.bikiniimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/Bikini/Bikini (4).png");
+}
+
+
+/* SHOWER CAP
+-------------------------------------------------- */
+
+.showercapimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/ShowerCap/ShowerCap (1).png");
+}
+
+.showercapimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/ShowerCap/ShowerCap (2).png");
+}
+
+.showercapimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/ShowerCap/ShowerCap (3).png");
+}
+
+.showercapimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/ShowerCap/ShowerCap (4).png");
+}
+
+.showercapimg5 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/ShowerCap/ShowerCap (5).png");
+}
+
+
+/* BOXERS
+-------------------------------------------------- */
+
+.boxersimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/Boxers/Boxers (1).png");
+}
+
+.boxersimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/Boxers/Boxers (2).png");
+}
+
+.boxersimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/Boxers/Boxers (3).png");
+}
+
+.boxersimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/Boxers/Boxers (4).png");
+}
+
+.boxersimg5 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/Boxers/Boxers (5).png");
+}
+
+.boxersimg6 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/Boxers/Boxers (6).png");
+}
+
+.boxersimg7 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/Boxers/Boxers (7).png");
+}
+
+
+/* LANGOT SOFT
+-------------------------------------------------- */
+
+.langotsoftimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/LangotSoft/LangotSoft (1).png");
+}
+
+.langotsoftimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/LangotSoft/LangotSoft (2).png");
+}
+
+.langotsoftimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/LangotSoft/LangotSoft (3).png");
+}
+
+.langotsoftimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/LangotSoft/LangotSoft (4).png");
+}
+
+.langotsoftimg5 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/LangotSoft/LangotSoft (5).png");
+}
+
+.langotsoftimg6 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/LangotSoft/LangotSoft (6).png");
+}
+
+.langotsoftimg7 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/LangotSoft/LangotSoft (7).png");
+}
+
+
+/* LANGOT HARD  
+-------------------------------------------------- */
+
+.langothardimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/LangotHard/LangotHard (1).png");
+}
+
+.langothardimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/LangotHard/LangotHard (2).png");
+}
+
+.langothardimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/LangotHard/LangotHard (3).png");
+}
+
+.langothardimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/LangotHard/LangotHard (4).png");
+}
+
+.langothardimg5 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/LangotHard/LangotHard (5).png");
+}
+
+.langothardimg6 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/LangotHard/LangotHard (6).png");
+}
+
+
+/* FACIAL GOWN
+-------------------------------------------------- */
+
+.facialgownimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/FacialGown/FacialGown (1).png");
+}
+
+.facialgownimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/FacialGown/FacialGown (2).png");
+}
+
+.facialgownimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/FacialGown/FacialGown (3).png");
+}
+
+.facialgownimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/FacialGown/FacialGown (4).png");
+}
+
+.facialgownimg5 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/FacialGown/FacialGown (5).png");
+}
+
+.facialgownimg6 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/FacialGown/FacialGown (6).png");
+}
+
+.facialgownimg7 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/FacialGown/FacialGown (7).png");
+}
+
+
+/* WRAP UP BRA
+-------------------------------------------------- */
+
+.wrapupimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/WrapUpBra/WrapUpBra (1).png");
+}
+
+.wrapupimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/WrapUpBra/WrapUpBra (2).png");
+}
+
+.wrapupimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/WrapUpBra/WrapUpBra (3).png");
+}
+
+.wrapupimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/WrapUpBra/WrapUpBra (4).png");
+}
+
+.wrapupimg5 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/WrapUpBra/WrapUpBra (5).png");
+}
+
+.wrapupimg6 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/WrapUpBra/WrapUpBra (6).png");
+}
+
+
+/* BATHROBE
+-------------------------------------------------- */
+
+.bathrobeimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/Bathrobe/Bathrobe (1).png");
+}
+
+.bathrobeimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/Bathrobe/Bathrobe (2).png");
+}
+
+.bathrobeimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/Bathrobe/Bathrobe (3).png");
+}
+
+.bathrobeimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/Bathrobe/Bathrobe (4).png");
+}
+
+.bathrobeimg5 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/Bathrobe/Bathrobe (5).png");
+}
+
+.bathrobeimg6 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/Bathrobe/Bathrobe (6).png");
+}
+
+
+/* HEADBAND HARD
+-------------------------------------------------- */
+
+.headbandhardimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/HeadbandHard/HeadbandHard (1).png");
+}
+
+.headbandhardimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/HeadbandHard/HeadbandHard (2).png");
+}
+
+.headbandhardimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/HeadbandHard/HeadbandHard (3).png");
+}
+
+
+/* HEADBAND SOFT
+-------------------------------------------------- */
+
+.headbandsoftimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/HeadbandSoft/HeadbandSoft (1).png");
+}
+
+.headbandsoftimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/HeadbandSoft/HeadbandSoft (2).png");
+}
+
+.headbandsoftimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/HeadbandSoft/HeadbandSoft (3).png");
+}
+
+
+/* SILVER PANTY
+-------------------------------------------------- */
+
+.silverpantyimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/SilverPanty/SilverPanty (1).png");
+}
+
+.silverpantyimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/SilverPanty/SilverPanty (2).png");
+}
+
+.silverpantyimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/SilverPanty/SilverPanty (3).png");
+}
+
+
+/* CHENNAI PANTY
+-------------------------------------------------- */
+
+.chennaipantyimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/ChennaiPanty/ChennaiPanty (1).png");
+}
+
+.chennaipantyimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/ChennaiPanty/ChennaiPanty (2).png");
+}
+
+.chennaipantyimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/ChennaiPanty/ChennaiPanty (3).png");
+}
+
+
+/* THAI DRESS SHORT
+-------------------------------------------------- */
+
+.thaishortimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/ThaiDressShort/ThaiDressShort (1).png");
+}
+
+.thaishortimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/ThaiDressShort/ThaiDressShort (2).png");
+}
+
+.thaishortimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/ThaiDressShort/ThaiDressShort (3).png");
+}
+
+.thaishortimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/ThaiDressShort/ThaiDressShort (4).png");
+}
+
+
+/* THAI DRESS LONG
+-------------------------------------------------- */
+
+.thailongimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/ThaiLong/ThaiLong (1).png");
+}
+
+.thailongimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/ThaiLong/ThaiLong (2).png");
+}
+
+.thailongimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/ThaiLong/ThaiLong (3).png");
+}
+
+.thailongimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/ThaiLong/ThaiLong (4).png");
+}
+
+
+/* KIMINOS SHORT
+-------------------------------------------------- */
+
+.kiminosshortimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/KiminosShort/KiminosShort (1).png");
+}
+
+.kiminosshortimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/KiminosShort/KiminosShort (2).png");
+}
+
+.kiminosshortimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/KiminosShort/KiminosShort (3).png");
+}
+
+.kiminosshortimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/KiminosShort/KiminosShort (4).png");
+}
+
+
+/* KIMINOS LONG
+-------------------------------------------------- */
+
+.kiminoslongimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/KiminosLong/KiminosLong (1).png");
+}
+
+.kiminoslongimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/KiminosLong/KiminosLong (2).png");
+}
+
+.kiminoslongimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/KiminosLong/KiminosLong (3).png");
+}
+
+.kiminoslongimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/KiminosLong/KiminosLong (4).png");
+}
+
+
+/* BLACK PANTY
+-------------------------------------------------- */
+
+.blackpantyimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/BlackPanty/BlackPanty (1).png");
+}
+
+.blackpantyimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/BlackPanty/BlackPanty (2).png");
+}
+
+.blackpantyimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/BlackPanty/BlackPanty (3).png");
+}
+
+.blackpantyimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/BlackPanty/BlackPanty (4).png");
+}
+
+
+/* JUMBO PANTY
+-------------------------------------------------- */
+
+.jumbopantyimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/JumboPanty/JumboPanty (1).png");
+}
+
+.jumbopantyimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/JumboPanty/JumboPanty (2).png");
+}
+
+.jumbopantyimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/JumboPanty/JumboPanty (3).png");
+}
+
+.jumbopantyimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/JumboPanty/JumboPanty (4).png");
+}
+
+
+/* SHAMPOO
+-------------------------------------------------- */
+
+.shampooimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/Shampoo/Shampoo.png");
+}
+
+
+/* SHOWER GEL
+-------------------------------------------------- */
+
+.showergelimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("spasdesc/images/ShowerGel/Showergel.png");
+}

@@ -1,0 +1,929 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+
+
+/* Padding below the footer and lighter body text */
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+
+/* Carousel base class */
+
+.carousel-inner {
+    height: 100%;
+    width: 75vh;
+    padding-right: -20%;
+}
+
+
+/* Declare heights because of positioning of img element */
+
+.carousel-item {
+    height: 80vh;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+
+/* Center align the text within the three columns below the carousel */
+
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.marketing h2 {
+    font-weight: 400;
+}
+
+
+/* rtl:begin:ignore */
+
+.marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+
+/* rtl:end:ignore */
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+    margin: 5rem 0;
+    /* Space out the Bootstrap <hr> more */
+}
+
+
+/* Thin out the marketing headings */
+
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    /* rtl:remove */
+    letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 7rem;
+    }
+}
+
+
+/* FONT ADJUSTMENTS
+-------------------------------------------------- */
+
+.product-description {
+    font-family: 'STIX Two Text', serif;
+    font-size: 16px;
+}
+
+
+/* AIRLAID
+-------------------------------------------------- */
+
+.airlaidimg {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/airlaid.png");
+}
+
+.airlaidimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Airlaid_Paper_Napkin/airlaidall.png");
+}
+
+.airlaidimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Airlaid_Paper_Napkin/airlaidblue.png");
+}
+
+.airlaidimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Airlaid_Paper_Napkin/airlaidgrey.png");
+}
+
+.airlaidimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Airlaid_Paper_Napkin/airlaidred.png");
+}
+
+.airlaidimg5 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Airlaid_Paper_Napkin/airlaidpack.png");
+}
+
+
+/* BEDROLL
+-------------------------------------------------- */
+
+.bedrollimg {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/bedroll.png");
+}
+
+.bedrollimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Bedroll/bedroll1.png");
+}
+
+.bedrollimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Bedroll/bedroll2.png");
+}
+
+.bedrollimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Bedroll/bedroll3.png");
+}
+
+.bedrollimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Bedroll/bedrollpack.png");
+}
+
+
+/* C FOLD TISSUES
+-------------------------------------------------- */
+
+.cfoldimg {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/cfold.png");
+}
+
+.cfoldimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/C_Fold/cfold1.png");
+}
+
+.cfoldimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/C_Fold/cfold2.png");
+}
+
+.cfoldimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/C_Fold/cfold3.png");
+}
+
+.cfoldimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/C_Fold/cfoldpack.png");
+}
+
+
+/* C AND N FOLD DISPENSER
+-------------------------------------------------- */
+
+.cndispimg {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/cnfolddispenser.png");
+}
+
+.cndispimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/C_N_Fold_Dispenser/cnfold1.png");
+}
+
+.cndispimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/C_N_Fold_Dispenser/cnfold2.png");
+}
+
+.cndispimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/C_N_Fold_Dispenser/cnfold3.png");
+}
+
+.cndispimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/C_N_Fold_Dispenser/cnfold4.png");
+}
+
+.cndispimg5 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/C_N_Fold_Dispenser/cnfoldbox.png");
+}
+
+.cndispimg6 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/C_N_Fold_Dispenser/cnfoldpack.png");
+}
+
+
+/* DEW DROPS
+-------------------------------------------------- */
+
+.dewimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Dew_Drops/dewdrops1.png");
+}
+
+.dewimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Dew_Drops/dewdrops2.png");
+}
+
+.dewimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Dew_Drops/dewdrops3.png");
+}
+
+.dewimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Dew_Drops/dewdrops4.png");
+}
+
+
+/* DINNER NAPKINS - PURPLE
+-------------------------------------------------- */
+
+.dnpimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Dinner_Purple/dinnerP1.png");
+}
+
+.dnpimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Dinner_Purple/dinnerP2.png");
+}
+
+.dnpimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Dinner_Purple/dinnerP3.png");
+}
+
+.dnpimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Dinner_Purple/dinnerP4.png");
+}
+
+.dnpimg5 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Dinner_Purple/dinnerP5.png");
+}
+
+.dnpimg6 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Dinner_Purple/dinnerP6.png");
+}
+
+
+/* DINNER NAPKINS - RED
+-------------------------------------------------- */
+
+.dnrimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Dinner_Red/dinnerR1.png");
+}
+
+.dnrimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Dinner_Red/dinnerR2.png");
+}
+
+.dnrimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Dinner_Red/dinnerR3.png");
+}
+
+.dnrimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Dinner_Red/dinnerR4.png");
+}
+
+
+/* DINNER NAPKINS - YELLOW
+-------------------------------------------------- */
+
+.dnyimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Dinner_Yellow/dinnerY1.png");
+}
+
+.dnyimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Dinner_Yellow/dinnerY2.png");
+}
+
+.dnyimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Dinner_Yellow/dinnerY3.png");
+}
+
+.dnyimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Dinner_Yellow/dinnerY4.png");
+}
+
+.dnyimg5 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Dinner_Yellow/dinnerY5.png");
+}
+
+
+/* DUAL SOAP DISPENSER
+-------------------------------------------------- */
+
+.dualsoapimg {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/dualsoapdispenser.png");
+}
+
+.dualsoapimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Dual_Soap_Dispenser/dualsoap1.png");
+}
+
+.dualsoapimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Dual_Soap_Dispenser/dualsoap2.png");
+}
+
+.dualsoapimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Dual_Soap_Dispenser/dualsoap3.png");
+}
+
+.dualsoapimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Dual_Soap_Dispenser/dualsoap4.png");
+}
+
+
+/* HRT ROLL
+-------------------------------------------------- */
+
+.hrtimg {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/hrt.png");
+}
+
+.hrtimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/HRT_Rolls/hrtroll1.png");
+}
+
+.hrtimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/HRT_Rolls/hrtroll2.png");
+}
+
+.hrtimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/HRT_Rolls/hrtroll3.png");
+}
+
+
+/* INDUSTRIAL DISPENSER
+-------------------------------------------------- */
+
+.indusdispimg {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/industrialdispenser.png");
+}
+
+
+/*.indusdispimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Ind");
+}
+
+.indusdispimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Industrial_Roll/industrial2.png");
+}
+
+.indusdispimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Industrial_Roll/industrial3.png");
+}
+
+.indusdispimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Industrial_Roll/industrial4.png");
+}*/
+
+
+/* INDUSTRIAL ROLL
+-------------------------------------------------- */
+
+.indusrollimg {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/industrial.png");
+}
+
+.indusrollimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Industrial_Roll/industrial1.png");
+}
+
+.indusrollimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Industrial_Roll/industrial2.png");
+}
+
+.indusrollimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Industrial_Roll/industrial3.png");
+}
+
+.indusrollimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Industrial_Roll/industrial4.png");
+}
+
+
+/* JRT DISPENSER
+-------------------------------------------------- */
+
+.jrtimg {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/jrtdispenser.png");
+}
+
+.jrtimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/JRT_Dispenser/jrtdisp1.png");
+}
+
+.jrtimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/JRT_Dispenser/jrtdisp2.png");
+}
+
+.jrtimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/JRT_Dispenser/jrtdispbox.png");
+}
+
+.jrtimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/imagesJRT_Dispenser/jrtdisppack1.png");
+}
+
+
+/* JUMBO ROLL
+-------------------------------------------------- */
+
+.jumboimg {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/jumbo.png");
+}
+
+.jumboimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Jumbo_Roll/jumboroll1.png");
+}
+
+.jumboimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Jumbo_Roll/jumboroll2.png");
+}
+
+.jumboimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Jumbo_Roll/jumboroll3.png");
+}
+
+.jumboimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Jumbo_Roll/jumboroll4.png");
+}
+
+
+/* KITCHEN ROLL BLACK
+-------------------------------------------------- */
+
+.kitchenblackimg {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/kitchenrollblack.png");
+}
+
+.kitchenblackimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Kitchen_Roll_Black/kitchenblack1.png");
+}
+
+.kitchenblackimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Kitchen_Roll_Black/kitchenblack2.png");
+}
+
+.kitchenblackimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Kitchen_Roll_Black/kitchenblack3.png");
+}
+
+.kitchenblackimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Kitchen_Roll_Black/kitchenblack4.png");
+}
+
+
+/* KITCHEN ROLL PURPLE
+-------------------------------------------------- */
+
+.kitchenpurpimg {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/kitchenrollpurple.png");
+}
+
+.kitchenpurpimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Kitchen_Roll_Purple/kitchenpurple1.png");
+}
+
+.kitchenpurpimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Kitchen_Roll_Purple/kitchenpurple2.png");
+}
+
+
+/* LIQUID DISPENSER
+-------------------------------------------------- */
+
+.liqdispimg {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/liquiddispenser.png");
+}
+
+.liqdispimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Liquid_Dispenser/liquid1.png");
+}
+
+.liqdispimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Liquid_Dispenser/liquid2.png");
+}
+
+
+/* MG PAPER 
+-------------------------------------------------- */
+
+.mgpprimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/MG_Paper/mgpaper1.jpg");
+}
+
+.mgpprimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/MG_Paper/mgpaper2.jpg");
+}
+
+.mgpprimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/MG_Paper/mgpack1.png");
+}
+
+.mgpprimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/MG_Paper/mgpack2.png");
+}
+
+
+/* MORNING MIST
+-------------------------------------------------- */
+
+.mistimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Morning_Mist/morningmist1.png");
+}
+
+.mistimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Morning_Mist/morningmist2.png");
+}
+
+.mistimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Morning_Mist/morningmist3.png");
+}
+
+.mistimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Morning_Mist/morningmist4.png");
+}
+
+
+/* N FOLD TISSUES
+-------------------------------------------------- */
+
+.nfoldimg {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/nfold.png");
+}
+
+.nfoldimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/N_Fold/nfold.png");
+}
+
+.nfoldimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/N_Fold/nfoldpack1.png");
+}
+
+.nfoldimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/N_Fold/nfoldpack2.png");
+}
+
+.nfoldimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/N_Fold/nfoldpack3.png");
+}
+
+
+/* SILKY TISSUES
+-------------------------------------------------- */
+
+.silkyimg {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/silkytissue.png");
+}
+
+.silkyimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Silky_Tissue/silky1.png");
+}
+
+.silkyimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Silky_Tissue/silky2.png");
+}
+
+.silkyimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Silky_Tissue/silky3.png");
+}
+
+.silkyimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Silky_Tissue/silky4.png");
+}
+
+
+/* SINGLE SOAP DISPENSER  
+-------------------------------------------------- */
+
+.singlesoapimg {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/singlesoapdispenser.png");
+}
+
+.singlesoapimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Single_Soap_Dispenser/singlesoap1.png");
+}
+
+.singlesoapimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Single_Soap_Dispenser/singlesoap2.png");
+}
+
+.singlesoapimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Single_Soap_Dispenser/singlesoap3.png");
+}
+
+.singlesoapimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Single_Soap_Dispenser/singlesoap4.png");
+}
+
+
+/* STAINLESS STEEL
+-------------------------------------------------- */
+
+.stainlessimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Stainless_Steel/stainlessJRT.png");
+}
+
+.stainlessimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Stainless_Steel/stainlessCfold.png");
+}
+
+
+/* TISSUE DISPENSER
+-------------------------------------------------- */
+
+.tissuedispimg {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/tissuesdispenser.png");
+}
+
+.tissuedispimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Tissue_Dispenser/tissuedisp1.png");
+}
+
+.tissuedispimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Tissue_Dispenser/tissuedisp2.png");
+}
+
+.tissuedispimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Tissue_Dispenser/tissuedisp3.png");
+}
+
+.tissuedispimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Tissue_Dispenser/tissuedisppack1.png");
+}
+
+.tissuedispimg5 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Tissue_Dispenser/tissuedisppack2.png");
+}
+
+
+/* TOILET ROLL
+-------------------------------------------------- */
+
+.toiletimg {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/toiletroll.png");
+}
+
+.toiletimg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Toilet_Rolls/toilet1.png");
+}
+
+.toiletimg2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Toilet_Rolls/toilet2.png");
+}
+
+.toiletimg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Toilet_Rolls/toilet3.png");
+}
+
+.toiletimg4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Toilet_Rolls/toilet4.png");
+}
+
+.toiletimg5 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Toilet_Rolls/toiletall1.png");
+}
+
+.toiletimg6 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("paperdesc/images/Toilet_Rolls/toiletall2.png");
+}
